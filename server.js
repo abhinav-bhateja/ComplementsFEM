@@ -25,15 +25,14 @@ app.get("/", function (req, res) {
 });
 
 app.get("/complement", function (req, res) {
-    res
-        .json({
-            complement: getRandomComplement()
-        })
-        .end();
+    res.json({
+        complement: getRandomComplement()
+    }).end();
 });
 
 app.use("/public", express.static("./public"));
 
-app.listen(3000);
-console.log("listening on http://localhost:3000");
+const port = process.env.PORT || 3000;
+app.listen(port);
+console.log(`listening on http://localhost:${port}`);
 
