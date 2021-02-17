@@ -1,0 +1,63 @@
+body {
+    background: #2D3142;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    padding: 30px 0 0 0;
+    color: #EF8354;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 4.5em;
+    text-align: center;
+    padding: 30px 0 0 0;
+    color: #EF8354;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+
+a {
+    color: #BFC0C0;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.button {
+    display: inline-flex;
+    height: 40px;
+    width: 150px;
+    border: 2px solid #BFC0C0;
+    margin: 20px 20px 20px 20px;
+    color: #BFC0C0;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .8em;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all .45s ease-in-out;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 0 4px 8px 0 rgba(191, 192, 192, 0.2), 0 6px 20px 0 rgba(191, 192, 192, 0.19);
+}
+
+
